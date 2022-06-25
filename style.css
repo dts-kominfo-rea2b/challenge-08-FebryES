@@ -1,0 +1,69 @@
+#app {
+     margin: 0vh 25vh;
+}
+
+#todo-title {
+    text-align: center;
+    border: 5px;
+    border-style: outset;
+    margin: 2vh 40vh;
+    background: #07B94E;
+    color: white;
+    text-shadow: 2px 3px #000;
+    font-family: 'open sans',sans-serif;
+}
+
+#todo-subtitle {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10vh 10vh 0 10vh;
+    font-family: 'comic sans ms';
+    word-spacing: 10px;
+    white-space: nowrap;
+    transition: width 2s, height 2s, transfrom 5s;
+    color: black;
+}
+
+#todo-subtitle:hover {
+    transform: rotate(360deg);
+    padding:10vh 10vh 0 10vh 
+}
+
+#todo-input {
+    width: 40vh;
+    padding: 4px 4px;
+    margin: 0 0 0 380px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #07B94E;
+}
+
+#todo-submit {
+    border-radius: 2px;
+    padding: 12px 5px;
+    width: 15vh;
+    background-color: white;
+}
+
+#todo-submit:hover {
+    cursor: pointer;
+    background-color: #07B94E;
+    color: white;
+}
+
+#todo-output {
+    width: 40vh;
+    padding: 5vh 4vh;
+    margin: 0 0 0 225vh;
+}
+
+li {
+    padding: 10px 15px;
+    border-style: dotted;
+    border-radius: 5px;
+    width: 40vh;
+    margin: 10pv -27px;
+    border-color: #000;
+    background-color: #07B94E;
+    color: #000;
+}
